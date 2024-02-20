@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item {
+    opacity: 0;
+    animation: fadeIn 1s ease-in both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.delayed-0 {
+    animation-delay: 0s;
+}
+
+.delayed-1 {
+    animation-delay: 1s;
+}
+
+.delayed-2 {
+    animation-delay: 2s;
+}
+
+.delayed-3 {
+    animation-delay: 3s;
+}
+
+.delayed-4 {
+    animation-delay: 4s;
+}
+
+.delayed-5 {
+    animation-delay: 5s;
+}
+
+.delayed-6 {
+    animation-delay: 6s;
+}
+
+.delayed-7 {
+    animation-delay: 7s;
+}
