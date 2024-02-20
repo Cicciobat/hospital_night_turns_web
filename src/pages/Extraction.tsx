@@ -16,7 +16,7 @@ const Extraction = ({messages, setMessages, setIsExtracted, socket}: any) => {
             setMessages(JSON.parse(msg));
             setIsExtracted(true)
         });
-    }, []);
+    });
 
     return (
         <div className="grid place-items-center h-screen">
